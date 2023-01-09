@@ -114,7 +114,7 @@
         <name>vendor.egistec.hardware.fingerprint</name> 
         <version>4.0</version> 
         <interface>
-            <name>IBiometricsFingerprintEts</name> 
+            <name>IBiometricsFingerprintRbs</name> 
             <instance>default</instance>
         </interface>
      </hal> 
