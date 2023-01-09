@@ -56,6 +56,9 @@ oppo.device.imeicache                   u:object_r:oppo_debug_prop:s0
 ro.build.version.ota                    u:object_r:oppo_debug_prop:s0
 persist.oppo.                           u:object_r:oppo_debug_prop:s0
 
+# Oppo Vendor Prop
+vendor.oppo.wifi.check.persist          u:object_r:oppo_vendor_prop:s0
+
 # Oppo wlan prop
 persist.oppo.wlan.                      u:object_r:oppo_wlan_prop:s0
 
