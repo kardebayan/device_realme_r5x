@@ -8,6 +8,7 @@ allow vendor_init {
 
 allow vendor_init block_device:lnk_file setattr;
 allow vendor_init camera_data_file:dir { create getattr setattr };
+allow vendor_init charger_status_prop:file { read };
 allow vendor_init persist_debug_prop:file { read };
 allow vendor_init powerctl_prop:file { read };
 allow vendor_init proc_touchpanel:file { write };
