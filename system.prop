@@ -15,18 +15,8 @@ persist.vendor.btstack.enable.splita2dp=false
 vendor.bluetooth.soc=cherokee
 
 # Camera
-camera.disable_zsl_mode=true
-persist.camera.aifb=1
-persist.camera.filter.version=1
-persist.dualcam.lpm.enable=1
-persist.vendor.camera.preview.ubwc=0
 persist.vendor.camera.expose.aux=1
-ro.camera.attr.detect.enable=1
-ro.camera.dualcam.type=2
-ro.camera.hfr.enable=1
-ro.camera.relight.enable=0
-ro.camera.sensor.aux2m=1
-ro.camera.temperature.limit=450
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.aperture
 
 # Charger
 ro.charger.enable_suspend=true
